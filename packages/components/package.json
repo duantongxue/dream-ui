@@ -1,0 +1,45 @@
+{
+  "name": "@dream/dream-ui",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./ui/lib/index.js",
+  "module": "./ui/es/index.js",
+  "files": [
+    "ui"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "publish:local": "npm run build && npm publish --registry http://localhost:4873/",
+    "publish": "npm run build && npm publish"
+  },
+  "dependencies": {
+    "element-plus": "^2.9.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "sass": "^1.82.0",
+    "typescript": "~5.6.2",
+    "unplugin-auto-import": "^0.18.6",
+    "unplugin-element-plus": "^0.8.0",
+    "unplugin-vue-components": "^0.27.5",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-tsc": "^2.1.10"
+  },
+  "author": "dream-man",
+  "description": "dream-ui是个人开发的组件库，希望能给大家带来便利",
+  "license": "MIT",
+  "keywords": [
+    "dream",
+    "dream-ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
