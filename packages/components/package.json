@@ -1,5 +1,5 @@
 {
-  "name": "@dream/dream-ui",
+  "name": "dream-ui",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -13,7 +13,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "publish:local": "npm run build && npm publish --registry http://localhost:4873/",
-    "publish": "npm run build && npm publish --registry https://registry.npmjs.org/"
+    "publish": "npm run build && npm publish --access public --registry https://registry.npmjs.org/"
   },
   "dependencies": {
     "element-plus": "^2.9.0",
