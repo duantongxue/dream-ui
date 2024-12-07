@@ -13,7 +13,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "publish:local": "npm run build && npm publish --registry http://localhost:4873/",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build && npm publish --registry https://registry.npmjs.org/"
   },
   "dependencies": {
     "element-plus": "^2.9.0",
@@ -40,6 +40,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/duantongxue/dream-ui"
   }
 }
