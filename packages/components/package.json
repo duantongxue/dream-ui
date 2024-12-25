@@ -1,5 +1,5 @@
 {
-  "name": "@dream/dream-ui",
+  "name": "@dream-man/dream-ui",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "build:watch": "vue-tsc -b && vite build --watch",
     "preview": "vite preview",
     "publish:local": "npm run build && npm publish --registry http://localhost:4873/",
     "publish": "npm run build && npm publish --access public --registry https://registry.npmjs.org/"
@@ -29,7 +30,8 @@
     "unplugin-vue-components": "^0.27.5",
     "vite": "^6.0.1",
     "vite-plugin-vue-setup-extend": "^0.4.0",
-    "vue-tsc": "^2.1.10"
+    "vue-tsc": "^2.1.10",
+    "monaco-editor": "^0.52.2"
   },
   "author": "dream-man",
   "description": "dream-ui是个人开发的组件库，希望能给大家带来便利",
