@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@dream/dream-ui':
+      '@dream-man/dream-ui':
         specifier: link:..\packages\components
         version: link:../packages/components
       vue:

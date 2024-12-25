@@ -1,11 +1,9 @@
 <script setup lang="ts">
+// import { DCodeEditor } from "@dream-man/dream-ui";
 </script>
 
 <template>
-  <d-input></d-input>
-  <d-button>1222</d-button>
+  <d-code-editor></d-code-editor>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

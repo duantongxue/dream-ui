@@ -1,7 +1,8 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import DreamUI from '@dream/dream-ui'
-import  '@dream/dream-ui/ui/es/dream-ui.css'
-
-createApp(App).use(DreamUI).mount('#app')
+import DreamUI from '@dream-man/dream-ui'
+// import  '@dream-man/dream-ui/ui/es/dream-ui.css'
+const app = createApp(App);
+app.use(DreamUI);
+app.mount('#app')
